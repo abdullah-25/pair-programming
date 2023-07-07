@@ -1,0 +1,40 @@
+@use "../../styles/partials/variables" as *;
+
+.recipe {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  font-family: $site-font;
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    background-color: $primary-color-lightGreen;
+    color: white;
+    border-radius: 1.5rem;
+  }
+}
+
+.video-box {
+  display: flex;
+  justify-content: center;
+  height: 40rem;
+}
+
+.recipe__subinfo {
+  margin: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: $primary-color-lightGreen;
+  border-radius: 1.5rem;
+  color: white;
+  height: 2rem;
+  align-items: center;
+  font-weight: bold;
+}
+
+.recipe__instructions {
+  line-height: 2.2rem;
+}

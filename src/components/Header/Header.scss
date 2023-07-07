@@ -1,0 +1,14 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px $primary-color-lightGreen solid;
+  // background-color: $primary-color-lightGreen;
+  &__logo {
+    margin: 1.5rem;
+    width: 20rem;
+    background-color: white;
+  }
+}

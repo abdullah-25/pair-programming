@@ -1,0 +1,50 @@
+@use "../../styles/partials/variables" as *;
+.search {
+  display: flex;
+  justify-content: center;
+  font-family: $site-font;
+}
+
+.sbar {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 4.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50rem;
+  background-color: $primary-color-lightGreen;
+  color: white;
+  font-weight: bold;
+}
+
+.sbar__form-text {
+  margin-right: 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  height: 1.5rem;
+  background-image: url("../../assets/icons/search.svg");
+  background-repeat: no-repeat;
+  //   background-origin: content-box;
+  padding-left: 1.5rem;
+  width: 8rem;
+}
+
+.sbar__form-button {
+  height: 1.5rem;
+  color: $primary-color-White;
+  background-color: black;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.sbar__form-box {
+  display: flex;
+  width: 15rem;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}

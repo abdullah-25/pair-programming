@@ -1,0 +1,38 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  align-items: center;
+  padding-top: 4.5rem;
+  margin: auto;
+
+  &__content {
+    padding: 2rem;
+    border: 1px solid $primary-color-lightGreen;
+    border-radius: 1rem;
+    // margin-right: 2rem;
+    box-shadow: 3px 3px $primary-color-lightGreen;
+  }
+  &__title {
+    color: $primary-color-lightGreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-family: $site-font;
+    // color: white;
+    width: 200px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,24 @@
+$primary-color-QuickMeal-Black: #323232;
+$primary-color-QuickMeal-pink: lightpink;
+$primary-color-lightGreen: #7d9f5d;
+$primary-color-White: #ffffff;
+
+$secondary-color-QuickMeal-DarkBlack: #000000;
+$secondary-color-Mercury: #e1e1e1;
+$secondary-color-Alabaster: #fafafa;
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../assets/fonts/AvenirNextLTPro-Bold.otf") format("otf");
+  font-size: 700;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../assets/fonts/AvenirNextLTPro-Regular.otf") format("otf");
+  font-size: 400;
+  font-weight: normal;
+}
+
+$site-font: "Avenir Next";
