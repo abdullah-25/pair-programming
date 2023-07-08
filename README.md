@@ -18,9 +18,9 @@ QuickMeals is a React front-end app that uses a public API key to fecth informat
 
 ## Features
 
-- **Seacrh bar:** [allows user to search a meal by typig up an ingredient name].
-- **Navigation and Routing:** [clicking on meal card directs a user to a different route and update the UI].
-- **Update of UI using React Props:** [Multiple props acts together to give user seamless experience.
+- **Seacrh bar:** allows user to search a meal by typig up an ingredient name.
+- **Navigation and Routing:** clicking on meal card directs a user to a different route and update the UI.
+- **Update of UI using React Props:** Multiple props acts together to give user seamless experience.
 
 ## Demo
 
