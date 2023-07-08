@@ -1,6 +1,6 @@
 # QuickMeals
 
-Welcome to the ProjectName repository! This repository houses the source code for the QuickMeals project. The project aims to provide a comprehensive solution for finding recipes by giving a single ingredient. The app uses an API key to generate content.
+Welcome to the QuickMeals repository! This repository houses the source code for the QuickMeals project. The project aims to provide a comprehensive solution for finding recipes by giving a single ingredient. The app uses an API key to generate content.
 
 ## Table of Contents
 
