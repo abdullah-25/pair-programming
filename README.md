@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# QuickMeals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the ProjectName repository! This repository houses the source code for the QuickMeals project. The project aims to provide a comprehensive solution for finding recipes by giving a single ingredient. The app uses an API key to generate content.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+QuickMeals is a React front-end app that uses a public API key to fecth information regarding meals. It is built using React and SASS. The project aims to help users find delicious meals by only providing it an ingredient.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Seacrh bar:** [allows user to search a meal by typig up an ingredient name].
+- **Navigation and Routing:** [clicking on meal card directs a user to a different route and update the UI].
+- **Update of UI using React Props:** [Multiple props acts together to give user seamless experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+Check out the live demo of ProjectName at [https://64a9afc536a1f126b0ddd97b--joyful-sundae-eea8ff.netlify.app/](https://64a9afc536a1f126b0ddd97b--joyful-sundae-eea8ff.netlify.app/) to see the project in action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install and run ProjectName locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+git clone https://github.com/abdullah-25/pair-programming.git
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
+cd pair-programming
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Build the project:
+npm run build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+5. Open the `index.html` file in your preferred web browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+That's it! You can now explore ProjectName locally on your machine.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+Once you have ProjectName up and running, you can [describe how to use the project]. Feel free to provide any additional instructions, guidelines, or configuration details specific to the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions to ProjectName are welcome! If you find a bug, have suggestions for improvements, or would like to add new features, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository.
 
-### Making a Progressive Web App
+2. Create a new branch for your contribution:
+git checkout -b my-contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+3. Make your changes, additions, or fixes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Commit and push your changes to your forked repository:
+git commit -m "Add my contribution"
+git push origin my-contribution
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. Open a pull request to the original repository, providing a clear description of your contribution.
 
-### `npm run build` fails to minify
+6. Engage in discussions and address any feedback or questions related to your contribution.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. Once approved, your contribution will be merged into the main branch of the original repository.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code in accordance with the terms of the license.
+
+Thank you for your interest in contributing to QuickMeals!
+
+
+
+
+
+
+
