@@ -1,4 +1,5 @@
-# QuickMeals
+<img width="519" alt="Screen Shot 2023-09-08 at 11 45 51 PM" src="https://github.com/abdullah-25/pair-programming/assets/70604820/193d5b7b-b90c-460c-b1dc-7b89abbc32f8">
+
 
 Welcome to the QuickMeals repository! This repository houses the source code for the QuickMeals project. The project aims to provide a comprehensive solution for finding recipes by giving a single ingredient. The app uses an API key to generate content.
 
